@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact · Haiqiao Wang</title>
+  <meta name="description" content="Contact Haiqiao Wang for piano performance, teaching, and design collaborations." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="index.html" aria-label="Homepage">HW</a>
+    <ul class="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="https://haiqiaowang.github.io/drag/" target="_blank" rel="noopener">Image Editing</a></li>
+      <li><a href="https://haiqiaowang.github.io/EME-Portfolio-Quiz/" target="_blank" rel="noopener">Web Design</a></li>
+      <li><a href="https://haiqiaowang.github.io/eportfolio/" target="_blank" rel="noopener">Video Production</a></li>
+      <li><a href="animation.html">Animation</a></li>
+      <li><a href="screencast.html">Screencast</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero" class="container" aria-labelledby="contact-title">
+    <h1 id="contact-title" class="hero-title">Get in Touch</h1>
+    <div class="keyboard-ribbon" aria-hidden="true"></div>
+    <p class="hero-tag">I’d love to connect about performance, teaching, or design collaborations.</p>
+  </section>
+</header>
+
+<main class="container" style="padding: 28px 0 60px;">
+  <div class="card" style="max-width: 720px; margin: 0 auto;">
+    <h2 style="margin-top: 0;">Contact Me</h2>
+    <p>If you’d like to reach out, email is the best way. I’m happy to talk about piano performance opportunities, class piano teaching, multimedia design work, or collaborative projects.</p>
+
+    <p style="margin: 18px 0;">
+      <a class="button" href="mailto:haiqiaowang@ufl.edu" aria-label="Send an email to Haiqiao Wang">Send me an Email</a>
+    </p>
+
+    <hr style="border: none; border-top: 1px solid var(--border); margin: 22px 0;" />
+
+    <h3 style="margin-top: 0;">Elsewhere</h3>
+    <p>
+      <a href="https://www.linkedin.com/in/haiqiaowang" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://haiqiaowang.wixsite.com/home" target="_blank" rel="noopener">Website</a> ·
+      <a href="https://github.com/haiqiaowang" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Haiqiao Wang</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
