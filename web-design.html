@@ -1,20 +1,98 @@
-<section class="project-card">
-  <h2>Web Design</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Web Design · Haiqiao Wang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">HW</a>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="image-editing.html">Image Editing</a></li>
+        <li><a href="web-design.html" class="active">Web Design</a></li>
+        <li><a href="video.html">Video Production</a></li>
+        <li><a href="animation.html">Animation</a></li>
+        <li><a href="screencast.html">Screencast</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <p>
-    This section showcases two interactive quizzes I designed using HTML, CSS, and JavaScript. 
-    Both projects demonstrate user interaction, layout design, and responsive web development skills.
-  </p>
+  <main class="container" style="padding: 40px 0 56px;">
+    <!-- Hero / Intro card -->
+    <section class="card" style="margin-bottom: 28px;">
+      <h1 style="margin-top: 0; font-family: 'Playfair Display', serif; font-size: 2rem;">
+        Web Design Projects
+      </h1>
+      <p class="hero-tag">
+        These projects explore interactive web design using HTML, CSS, and JavaScript. 
+        Both quizzes focus on creating clear layouts, intuitive interactions, and playful learning experiences.
+      </p>
+    </section>
 
-  <div class="button-group">
-    <a href="https://haiqiaowang.github.io/quiz/" 
-       class="button" target="_blank" rel="noopener">
-       View Quiz 1
-    </a>
+    <!-- Two project cards in a grid -->
+    <section class="grid" style="margin-bottom: 28px;">
+      <!-- Quiz 1 -->
+      <article class="card project">
+        <h2>Quiz 1 • Baking-Themed Quiz</h2>
+        <p>
+          This quiz invites users to answer multiple-choice questions in a baking theme. 
+          I focused on clean typography, friendly color choices, and clear feedback so that learners 
+          can easily follow their progress.
+        </p>
+        <ul style="padding-left: 20px; color: var(--muted);">
+          <li>Built with HTML, CSS, and JavaScript</li>
+          <li>Multiple-choice interactions with instant feedback</li>
+          <li>Designed to be simple, fun, and easy to navigate</li>
+        </ul>
+        <a href="https://haiqiaowang.github.io/quiz/"
+           class="button"
+           target="_blank"
+           rel="noopener">
+          View Quiz 1
+        </a>
+      </article>
 
-    <a href="https://haiqiaowang.github.io/drag/" 
-       class="button" target="_blank" rel="noopener">
-       View Quiz 2
-    </a>
-  </div>
-</section>
+      <!-- Quiz 2 -->
+      <article class="card project">
+        <h2>Quiz 2 • Drag-and-Drop Classification</h2>
+        <p>
+          This drag-and-drop quiz lets users sort items into categories by moving them on the screen. 
+          The goal was to create a more dynamic interaction that encourages experimentation and active learning.
+        </p>
+        <ul style="padding-left: 20px; color: var(--muted);">
+          <li>Drag-and-drop interaction using JavaScript</li>
+          <li>Visual grouping to support classification and comparison</li>
+          <li>Simple, responsive layout for different screen sizes</li>
+        </ul>
+        <a href="https://haiqiaowang.github.io/drag/"
+           class="button"
+           target="_blank"
+           rel="noopener">
+          View Quiz 2
+        </a>
+      </article>
+
+      <!-- 如果你以后还想加第三个 Web 项目，可以在这里再加一个 <article class="card project"> ... </article> -->
+    </section>
+
+    <!-- Reflection card -->
+    <section class="card">
+      <h2>Reflection</h2>
+      <p>
+        Through these web design projects, I practiced planning page structure, writing clean and readable HTML, 
+        and using CSS to create a consistent visual language across different pages. JavaScript allowed me to add 
+        interactivity so that quizzes feel more like playful learning experiences than static assessments.
+      </p>
+      <p>
+        Working on both a traditional quiz and a drag-and-drop activity also helped me think about how different
+        interaction patterns can support different kinds of thinking—such as recall, comparison, and classification.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
+
